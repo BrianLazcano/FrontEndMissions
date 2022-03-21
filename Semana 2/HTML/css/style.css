@@ -1,0 +1,86 @@
+@font-face {
+    font-family: fuente1;
+    src: url(./Fuente1.otf);
+}
+
+
+@font-face {
+    font-family: fuente2;
+    src: url(./fuente3.otf);
+}
+
+h1{
+    color: pink;
+    font-family: fuente1;
+    text-align: center;
+    font-size: 75px;
+
+}
+h2{
+    color: pink;
+    font-family: fuente1;
+    text-align: center;
+    font-size: 55px;
+   
+}
+
+.encabezado{
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.Encabezado2{
+    width: auto;
+    height: auto;
+
+}
+.contenedor{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.items{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.secc{
+color: rgb(97, 214, 166);
+
+}
+.tablas,td{
+    border: rgb(97, 214, 166) 2px solid;
+    width: 350px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+
+tbody{
+    font-size: 35px;
+}
+
+body{
+    color: rgb(216, 193, 92);
+    background-image:url(./estrellas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fuente2; 
+    font-size: 52px;
+
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+

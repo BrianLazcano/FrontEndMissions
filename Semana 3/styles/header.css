@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: var(--background-color);
+}
+
+.header__container {
+  padding: 2rem 0;
+  margin-inline: auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.header__nav {
+  display: grid;
+  place-content: center;
+}
+
+.header__links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 3rem;
+}
+
+.header__link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in;
+}
+
+.header__link:hover {
+  color: var(--primary-color);
+}
+
+
