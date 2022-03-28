@@ -1,0 +1,32 @@
+@font-face {
+    font-family: fuenteTit;
+    src: url(./Pokemon\ Solid.ttf);
+}
+
+h1{
+    font-family: fuenteTit;
+    color: rgb(240, 216, 8);
+    font-weight: bold;
+    font-size: 85px;
+    -webkit-text-stroke: 6.5px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.encabezado{
+    background-color: rgba(41, 75, 223, 0.89);
+    width: 100%;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.item{
+    grid: -50%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./stylepokelaunchx.css">
+    <link rel="stylesheet" href="./pokedex.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encabezado">
+            <header>
+                <h1>Pokedex LaunchX</h1>
+            </header>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="back">
+            <div class="botSup">
+                <div class="botonazul"></div>
+                <div class="botonrojoc"></div>
+                <div class="botonamarilloc"></div>
+                <div class="botonverdec"></div>
+            </div>
+            <div class="contenedor2">
+                <div class="marco">
+                    <div class="pokeimg">
+                        <img src="./Poké_Ball.png" alt="Pokemon" id="pokeImg" width="200px">
+                    </div>
+                </div>
+                <div class="botinfe">
+                    <div class="botonazuli"></div>
+                    <div class="barrayellow"></div>
+                    <div class="barraverde"></div>
+                </div>
+                <div>
+                    <div class="nompok">
+                        <input type="text" class="botonbus" placeholder="Pokemon" id="pokeName" name="pokeName">
+                        <button onclick="fetchPokemon()" class="botbus">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="back">
+            <div class="botSup">
+                <div class="botonazul"></div>
+                <div class="botonrojoc"></div>
+                <div class="botonamarilloc"></div>
+                <div class="botonverdec"></div>
+            </div>
+            <div class="contenedor2">
+                <div class="marco">
+                    <div class="stats">
+                        <label for="hp" class="etiquetas" >HP: <textarea class="stats2" id="Hp" cols="30" rows="10" disabled="true"></textarea></label>
+                        <label for="atack" class="etiquetas" >Atk: <textarea class="stats2" id="Atk" cols="30" rows="10" disabled="true"></textarea></label>
+                        <label for="defense" class="etiquetas" >Def: <textarea class="stats2" id="Def" cols="30" rows="10" disabled="true"></textarea></label>
+                        <label for="velocity" class="etiquetas" >Vel: <textarea class="stats2" id="Vel" cols="30" rows="10" disabled="true"></textarea></label>
+                        <label for="spAtack" class="etiquetas" >Sp Atk: <textarea class="stats2" id="spAtk" cols="30" rows="10" disabled="true"></textarea></label></label>
+                        <label for="spDefense" class="etiquetas" >Sp Def: <textarea class="stats2" id="spDef" cols="30" rows="10" disabled="true"></textarea></label></label>
+
+                    </div>
+                </div>
+                <div class="informacion">
+                    <label for="tipo">type: <textarea class="stats3" id="type" cols="30" rows="10"></textarea></label>
+                    <label for="Firstapt">First Apparition <textarea class="stats3" id="first"></textarea> </label>
+                </div>
+                <div>
+                    <div class="nompok">
+                        <textarea class="moves" id="movimientos" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./pokeApi.js"></script>
+</footer>
+</html>
